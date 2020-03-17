@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "gatsby": "^2.19.32",
-    "@armada-inc/gatsby-wordpress-theme-libre": "^1.0.0",
+    "@armada-inc/gatsby-wordpress-theme-libre": "^1.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
