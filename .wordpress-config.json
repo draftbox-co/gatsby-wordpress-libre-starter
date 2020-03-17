@@ -1,5 +1,5 @@
 {
-  "baseUrl": "themeisle.com/",
+  "baseUrl": "themeisle.com",
   "protocol": "https",
   "hostingWPCOM": false,
   "useACF": true,
