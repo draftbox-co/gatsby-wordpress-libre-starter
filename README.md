@@ -15,13 +15,6 @@ Play with the [Demo](https://gatsby-wordpress-libre.netlify.com/) to get a first
 - Fully responsive
 - Composable and extensible
 
-## Features
-
-- Ghost Casper skin and functionality
-- SEO optimized
-- Fully responsive
-- Composable and extensible
-
 ## Getting Started
 
 1. Install this starter by running
