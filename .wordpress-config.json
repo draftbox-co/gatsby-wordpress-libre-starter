@@ -1,0 +1,15 @@
+{
+  "baseUrl": "ipldreampredictions.com",
+  "protocol": "https",
+  "hostingWPCOM": false,
+  "useACF": true,
+  "includedRoutes": [
+    "**/categories",
+    "**/posts",
+    "**/pages",
+    "**/media",
+    "**/tags",
+    "**/taxonomies",
+    "**/users"
+  ]
+}

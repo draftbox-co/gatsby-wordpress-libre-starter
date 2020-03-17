@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-wordpress-libre-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "devDependencies": {
+    "gatsby": "^2.19.32",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.32",
+    "@armada-inc/gatsby-wordpress-theme-libre": "^1.0.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
