@@ -15,6 +15,7 @@ Play with the [Demo](https://gatsby-wordpress-libre.netlify.com/) to get a first
 - Fully responsive
 - Composable and extensible
 
+
 ## Getting Started
 
 1. Install this starter by running
@@ -48,6 +49,8 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── gatsby-config.js
     ├── yarn.lock
     ├── package.json
+    ├── siteConfig.js
+    ├── .wordpress-config.json
     └── README.md
 
 1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
@@ -60,9 +63,11 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 5.  **`yarn.lock`** (See `yarn.lock` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
-6.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+6.  **`siteConfig`**: A config file for your website, which includes things like website url, title, Background color, theme color etc.
 
-7.  **`README.md`**: A text file containing useful reference information about your project.
+8.  **`.wordpress-config.json`**: A config file containing config required to fetch data from wordpress such as url and content keys etc.
+
+9.  **`README.md`**: A text file containing useful reference information about your project.
 
 ## Configure
 
@@ -109,7 +114,7 @@ In the configuration shown above, the most important fields to be changed are `s
     }
 ```
 
-In the configuration shown above, the most important fields to be changed are `baseUrl` and `siteTitleMeta` . Update those with your configuration. example shown above works great for self hosted wordpress.
+In the configuration shown above, the most important fields to be changed are `baseUrl` and `hostingWPCOM` . Update those with your configuration. example shown above works great for self hosted wordpress.
 
 If your blog is hosted on wordpress.com you will have to add few extra keys for reference check out [wordpress-source-docs](https://www.gatsbyjs.org/packages/gatsby-source-wordpress/).
 
