@@ -25,12 +25,12 @@ module.exports = {
         // your segment write key for your production environment
         // when process.env.NODE_ENV === 'production'
         // required; non-empty string
-        prodKey: `32iu8ngb9j`,
+        prodKey: process.env.SEGMENT_KEY,
 
         // if you have a development env for your segment account, paste that key here
         // when process.env.NODE_ENV === 'development'
-        // optional; non-empty string
-        devKey: `32iu8ngb9j`,
+        // optional; non-empty string 32iu8ngb9j
+        devKey: process.env.SEGMENT_KEY,
 
         // boolean (defaults to false) on whether you want
         // to include analytics.page() automatically
@@ -62,13 +62,13 @@ module.exports = {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:
-          "https://null.us8.list-manage.com/subscribe/post?u=6b254bbe5e307adeb1ac89277&amp;id=e541568b86" // add your MC list endpoint here; see instructions below
+          process.env.MC_ENDPOINT // add your MC list endpoint here; see instructions below https://null.us8.list-manage.com/subscribe/post?u=6b254bbe5e307adeb1ac89277&amp;id=e541568b86
       }
     },
     {
       resolve: `gatsby-plugin-statickit`,
       options: {
-        siteId: 'f2e0a6d9df78',
+        siteId: process.env.STATICKIT, //f2e0a6d9df78
       },
     }
   ]
