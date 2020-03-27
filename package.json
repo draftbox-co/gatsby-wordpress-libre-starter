@@ -14,8 +14,13 @@
     "react-dom": "^16.13.0"
   },
   "dependencies": {
-    "gatsby": "^2.19.32",
     "@armada-inc/gatsby-wordpress-theme-libre": "^1.0.1",
+    "@statickit/react": "^2.1.0",
+    "gatsby": "^2.19.32",
+    "gatsby-plugin-disqus": "^1.1.4",
+    "gatsby-plugin-mailchimp": "^5.1.2",
+    "gatsby-plugin-segment-js": "^3.1.0",
+    "gatsby-plugin-statickit": "^1.1.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   }
