@@ -34,14 +34,11 @@ if(process.env.SEGMENT_KEY) {
 }
 
 if(process.env.GA) {
-  gatsbyPlugins.push({
+  gatsbyPlugins.unshift({
     resolve: `gatsby-plugin-google-analytics`,
     options: {
       trackingId: process.env.GA,
-      head: false,
-      pageTransitionDelay: 0,
-      sampleRate: 5,
-      siteSpeedSampleRate: 10
+      head: true
     }
   });
 }

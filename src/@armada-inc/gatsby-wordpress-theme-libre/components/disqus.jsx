@@ -3,12 +3,12 @@ import { DiscussionEmbed } from "disqus-react";
 
 const Disqus = props => {
   const disqusConfig = {
-    shortname: process.env.DISQUS_SHORTNAME,
+    shortname: process.env.GATSBY_DISQUS_SHORTNAME,
     identifier: props.slug,
     title: props.slug
   };
 
-  return process.env.DISQUS_SHORTNAME ? (
+  return process.env.GATSBY_DISQUS_SHORTNAME ? (
     <DiscussionEmbed {...disqusConfig} />
   ) : (
     <></>
