@@ -1,16 +1,23 @@
 build:
-  stage: build
-  image: node:latest
-  script:
-    - yarn install
-    - ./node_modules/.bin/gatsby build --prefix-paths
   artifacts:
     paths:
       - public
+  image: "node:latest"
   only:
     - master
-  cache:
-    paths:
-      - node_modules
-      
-
+  script:
+    - "yarn install"
+    - "./node_modules/.bin/gatsby build --prefix-paths"
+    - "npm install netlify-cli@2.40 -g"
+    - "export PATH=~/.local/bin:$PATH"
+    - ls
+    - "netlify deploy --dir=public --site=$NETLIFY_SITE_ID --prod"
+    - 'echo "DEPLOYED SUCCESSFULLY"'
+  stage: build
+cache:
+  paths:
+    - node_modules/
+image: "docker:latest"
+stages:
+  - build
+  - deploy
