@@ -9,13 +9,13 @@
     "clean": "gatsby clean"
   },
   "devDependencies": {
-    "gatsby": "^2.19.32",
+    "gatsby": "2.20.15",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
   "dependencies": {
     "@armada-inc/gatsby-wordpress-theme-libre": "^1.0.7",
-    "gatsby": "^2.19.32",
+    "gatsby": "2.20.15",
     "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-google-analytics": "^2.2.2",
     "gatsby-plugin-mailchimp": "^5.1.2",
