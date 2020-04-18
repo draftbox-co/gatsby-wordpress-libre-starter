@@ -18,7 +18,8 @@ if (process.env.WP_BASE_URL) {
     wordpressConfig.auth.wpcom_app_clientSecret = process.env.WP_CLI_SEC;
     wordpressConfig.auth.wpcom_app_clientId = process.env.WP_CLI_ID;
     wordpressConfig.auth.wpcom_user = process.env.WP_USER;
-    wordpressConfig.auth.wpcom_pass = process.env.WP_PASS
+    wordpressConfig.auth.wpcom_pass = process.env.WP_PASS;
+    wordpressConfig.includedRoutes.push("**/settings");
   }
 }
 
