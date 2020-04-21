@@ -1,7 +1,7 @@
 module.exports = {
   siteUrl: "https://ipldreampredictions.com", // Site domain. Do not include a trailing slash!
 
-  postsPerPage: 2, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
+  postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
   siteTitleMeta: "Wordpress Gatsby Starter", // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta:

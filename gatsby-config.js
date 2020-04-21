@@ -16,9 +16,10 @@ if (process.env.WP_BASE_URL) {
     wordpressConfig.hostingWPCOM = true;
     wordpressConfig.auth = {};
     wordpressConfig.auth.wpcom_app_clientSecret = process.env.WP_CLI_SEC;
-    wordpressConfig.auth.wpcom_app_clientId = process.env.WP_CLI_SEC;
+    wordpressConfig.auth.wpcom_app_clientId = process.env.WP_CLI_ID;
     wordpressConfig.auth.wpcom_user = process.env.WP_USER;
-    wordpressConfig.auth.wpcom_pass = process.env.WP_PASS
+    wordpressConfig.auth.wpcom_pass = process.env.WP_PASS;
+    wordpressConfig.includedRoutes.push("**/settings");
   }
 }
 
@@ -56,6 +57,15 @@ if (process.env.GA) {
     },
   });
 }
+
+gatsbyPlugins.push({
+  resolve: 'gatsby-plugin-robots-txt',
+  options: {
+    host: siteConfig.siteUrl,
+    sitemap: `${siteConfig.siteUrl}/sitemap.xml`,
+    policy: [{ userAgent: '*', disallow: ['/'] }]
+  }
+})
 
 module.exports = {
   plugins: gatsbyPlugins,
