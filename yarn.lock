@@ -12,10 +12,10 @@
     minimatch "^3.0.4"
     react "^16.6.1"
 
-"@armada-inc/gatsby-wordpress-theme-libre@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@armada-inc/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.8.tgz#bede874b3b6c7154add98b8747477ce76352b567"
-  integrity sha512-Aj+XfRVfi6RcjD2YFB6CZWnygGleBkDMqF2I/tk7cBttyyo8MTv0k/rmjNBq6QwRADKvLjAXhswz8NdTflLnnA==
+"@armada-inc/gatsby-wordpress-theme-libre@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@armada-inc/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.9.tgz#30d99762412d5f53dcefcefb30a44d0160ea7127"
+  integrity sha512-eHKxVzjnZZ3u/Nus43jTH9ZCNkvlsVFVeow4UkYUz512TD/Xi9zwRod819ZoFLAOaMLT+53MawdPotTdArUHtA==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@reach/router" "^1.3.3"
