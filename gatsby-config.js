@@ -58,15 +58,6 @@ if (process.env.GA) {
   });
 }
 
-gatsbyPlugins.push({
-  resolve: 'gatsby-plugin-robots-txt',
-  options: {
-    host: siteConfig.siteUrl,
-    sitemap: `${siteConfig.siteUrl}/sitemap.xml`,
-    policy: [{ userAgent: '*', disallow: ['/'] }]
-  }
-})
-
 module.exports = {
   plugins: gatsbyPlugins,
 };
