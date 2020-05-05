@@ -27,7 +27,7 @@ console.log(wordpressConfig);
 
 let gatsbyPlugins = [
   {
-    resolve: `@armada-inc/gatsby-wordpress-theme-libre`,
+    resolve: `@draftbox-co/gatsby-wordpress-theme-libre`,
     options: {
       wordpressConfig,
       siteConfig: siteConfig,
