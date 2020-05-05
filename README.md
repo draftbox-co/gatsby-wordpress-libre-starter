@@ -21,7 +21,7 @@ Play with the [Demo](https://gatsby-wordpress-libre.netlify.com/) to get a first
 1. Install this starter by running
 
    ```bash
-   gatsby new wp-starter https://github.com/armada-inc/gatsby-wordpress-libre-starter
+   gatsby new wp-starter https://github.com/draftbox-co/gatsby-wordpress-libre-starter
    ```
 
 2. Change directory
@@ -128,4 +128,4 @@ After completion of the build process your static site can be found in the `publ
 
 # Copyright & License
 
-Copyright (c) 2020 Armada Intelligence Inc - Released under the [MIT license](LICENSE).
+Copyright (c) 2020 Draftbox - Released under the [MIT license](LICENSE).
