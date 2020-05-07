@@ -951,10 +951,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.12.tgz#1d68a6c854b47485a3e30115d3ad2d9a21601bd8"
-  integrity sha512-ZAiHfDiCUvOMZsUaNlWhpEmJEBGokWwr6Fag77hwZSqIWiPQKojPYCAYtwTt3W0w/zqpjvoOGPYaRfcXfq+e+g==
+"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.13.tgz#51c54390de59922e74d875c9c88330625ebbffcb"
+  integrity sha512-jlKnMqbwATd353AqDqEjmSDDHbnXpqcUKHaTfAbDgbz8jIGPU1PvEe88T+tZchGoB+SeK0KGeDN9uxw8YP08Mw==
   dependencies:
     "@armada-inc/gatsby-plugin-amp" "^0.2.3"
     "@reach/router" "^1.3.3"
