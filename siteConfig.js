@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://wp-libre-preview.draftbox.co/", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://wp-libre-preview.draftbox.co", // Site domain. Do not include a trailing slash!
 
   postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
