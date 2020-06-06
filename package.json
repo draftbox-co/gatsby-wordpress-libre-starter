@@ -1,5 +1,6 @@
 {
   "name": "gatsby-wordpress-libre-starter",
+  "description": "A Gatsby starter for creating blogs from headless WordPress CMS.",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
