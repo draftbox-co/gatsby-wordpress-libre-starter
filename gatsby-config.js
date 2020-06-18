@@ -1,3 +1,10 @@
+// loading env
+const activeEnv = process.env.NODE_ENV || 'development'
+console.log(`Using environment config: '${activeEnv}'`)
+require("dotenv").config({
+  path: `.env.${activeEnv}`,
+})
+
 let siteConfig;
 let wordpressConfig;
 
@@ -57,6 +64,65 @@ if (process.env.GA) {
       trackingId: process.env.GA,
       head: true,
     },
+  });
+}
+
+if (process.env.GATSBY_MIXPANEL_TOKEN) {
+  gatsbyPlugins.unshift({
+    resolve: `gatsby-plugin-mixpanel`,
+    options: {
+      apiToken: process.env.GATSBY_MIXPANEL_TOKEN,
+      enableOnDevMode: true,
+      pageViews: 'all'
+    },
+  });
+}
+
+if (process.env.GATSBY_HOTJAR_ID) {
+  gatsbyPlugins.unshift({
+    resolve: `gatsby-plugin-hotjar`,
+    options: {
+      id: process.env.GATSBY_HOTJAR_ID,
+      sv: process.env.GATSBY_HOTJAR_SV
+    }
+  });
+}
+
+if (process.env.GATSBY_GTAG_MANAGER_ID) {
+  gatsbyPlugins.unshift({
+    resolve: `gatsby-plugin-google-tagmanager`,
+    options: {
+      id: process.env.GATSBY_GTAG_MANAGER_ID,
+      includeInDevelopment: true
+    },
+  });
+}
+
+if (process.env.GATSBY_TAWK_ID) {
+  gatsbyPlugins.unshift({
+    resolve: `gatsby-plugin-tawk`,
+    options: {
+      tawkId: process.env.GATSBY_TAWK_ID,
+    }
+  });
+}
+
+if (process.env.GATSBY_CRISP_ID) {
+  gatsbyPlugins.unshift({
+    resolve: `gatsby-plugin-crisp-chat`,
+    options: {
+      websiteId: process.env.GATSBY_CRISP_ID,
+      enableDuringDevelop: true
+    }
+  });
+}
+
+if (process.env.GATSBY_OLARK_ID) {
+  gatsbyPlugins.unshift({
+    resolve: `gatsby-plugin-olark`,
+    options: {
+      olarkSiteID: process.env.GATSBY_OLARK_ID,
+    }
   });
 }
 
