@@ -83,7 +83,7 @@ if (process.env.GATSBY_HOTJAR_ID) {
     resolve: `gatsby-plugin-hotjar`,
     options: {
       id: process.env.GATSBY_HOTJAR_ID,
-      sv: process.env.GATSBY_HOTJAR_SV
+      sv: 6
     }
   });
 }
