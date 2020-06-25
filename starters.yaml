@@ -1,0 +1,25 @@
+- url: https://wp-libre-preview.draftbox.co
+  repo: https://github.com/draftbox-co/gatsby-wordpress-libre-starter
+  description: A Gatsby starter for creating blogs from headless WordPress CMS.
+  tags:
+    * AMP
+    * Blog
+    * CMS:Headless
+    * CMS:WordPress
+    * Disqus
+    * Netlify
+    * Pagination
+    * PWA
+    * RSS
+    * SEO
+    * Styling:Other
+  features:
+    - Libre Skin by Draftbox
+    - Data sourcing from headless WordPress
+    - Responsive design
+    - SEO optimized
+    - OpenGraph structured data
+    - Twitter Cards meta
+    - Sitemap Generation
+    - XML Sitemaps
+    - Progressive Web App

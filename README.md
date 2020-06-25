@@ -30,7 +30,6 @@ Play with the [Demo](https://wp-libre-preview.draftbox.co/) to get a first impre
 - Disqus Integration
 - Composable and extensible
 
-
 ## Getting Started
 
 1. Install this starter by running
@@ -80,30 +79,83 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 6.  **`siteConfig`**: A config file for your website, which includes things like website url, title, Background color, theme color etc.
 
-8.  **`.wordpress-config.json`**: A config file containing config required to fetch data from wordpress such as url and content keys etc.
+7.  **`.wordpress-config.json`**: A config file containing config required to fetch data from wordpress such as url and content keys etc.
 
-9.  **`README.md`**: A text file containing useful reference information about your project.
+8.  **`README.md`**: A text file containing useful reference information about your project.
 
 ## Configure
 
 ```js
 //siteConfig.js
 module.exports = {
-  siteUrl: "http://localhost:9000", // Site domain. Do not include a trailing slash!
+  siteUrl: "https://wp-libre-preview.draftbox.co", // Site domain. Do not include a trailing slash!
 
-  postsPerPage: 2, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
+  postsPerPage: 10, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
 
-  siteTitleMeta: "Wordpress Gatsby Starter", // This allows an alternative site title for meta data for pages.
-  siteDescriptionMeta:
-    "A starter template to build amazing static websites with Wordpress and Gatsby", // This allows an alternative site description for meta data for pages.
+  siteTitleMeta: "Built with Draftbox", // This allows an alternative site title for meta data for pages.
+  siteDescriptionMeta: "New-age blogging platform", // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image
 
-  shortTitle: "Wordpress", // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: "Built with Draftbox", // Used for App manifest e.g. Mobile Home Screen
   siteIcon: "favicon.png", // Logo in /static dir used for SEO, RSS, and App manifest
   backgroundColor: "#e9e9e9", // Used for Offline Manifest
-  themeColor: "#15171A" // Used for Offline Manifest
+  themeColor: "#15171A", // Used for Offline Manifest
+  apiUrl: "https://wordpress.theasdfghjkl.com",
+  subscribeWidget: {
+    title: "Subscribe to Draftbox",
+    helpText: "Get the latest posts delivered right to your inbox.",
+    successMessage: "Thanks for subscribing to Draftbox.",
+  },
+  header: {
+    navigation: [
+      {
+        label: "Home",
+        url: "https://wp-libre-preview.draftbox.co/",
+      },
+      {
+        label: "Contact",
+        url: "https://wp-libre-preview.draftbox.co/contact",
+      },
+    ],
+  },
+  footer: {
+    copyright: "Built with Draftbox",
+    navigation: [
+      {
+        label: "Home",
+        url: "https://wp-libre-preview.draftbox.co/",
+      },
+      {
+        label: "Sitemap",
+        url: "https://wp-libre-preview.draftbox.co/sitemap.xml",
+      },
+      {
+        label: "RSS",
+        url: "https://wp-libre-preview.draftbox.co/rss.xml",
+      },
+      {
+        label: "Contact",
+        url: "https://wp-libre-preview.draftbox.co/contact",
+      },
+      {
+        label: "External Link",
+        url: "https://spectrum.chat/gatsby-js/themes?tab=posts",
+      },
+    ],
+  },
+  socialLinks: {
+    twitter: "https://twitter.com/draftboxhq",
+    facebook: "https://facebook.com/",
+    instagram: "https://www.instagram.com/",
+    linkedin: "https://linkedin.com/",
+    github: "https://github.com/draftbox-co",
+  },
+  contactWidget: {
+    title: "Contact Built with Draftbox",
+    successMessage: "We’ll get in touch with you soon.",
+  },
 };
 ```
 
@@ -142,12 +194,14 @@ If your blog is hosted on wordpress.com you will have to add few extra keys for 
 After completion of the build process your static site can be found in the `public/` folder. Copy those files over to your webserver.
 
 ## Authors
+
 - Arun Priyadarshi ([@Gunnerforlife](https://github.com/Gunnerforlife)) – [Draftbox](https://draftbox.co)
 - Keyur Raval ([@thandaanda](https://github.com/thandaanda)) – [Draftbox](https://draftbox.co)
 - Shyam Lohar ([@shyamlohar](https://github.com/shyamlohar)) – [Draftbox](https://draftbox.co)
 - Tanmay Desai ([@tanmaydesai89](https://github.com/tanmaydesai89)) – [Draftbox](https://draftbox.co)
 
 ## Contributions
+
 PRs are welcome! Consider contributing to this project if you are missing feature that is also useful for others.
 
 # Copyright & License
