@@ -67,4 +67,31 @@ module.exports = {
     title: "Contact Built with Draftbox",
     successMessage: "We’ll get in touch with you soon.",
   },
+  metadata: {
+    title: "Built with Draftbox",
+    description:
+      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+  },
+  twitterCard: {
+    title: "Built with Draftbox",
+    description:
+      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+    imageUrl: "twitterImage.png",
+    username: "@DraftboxHQ",
+  },
+  facebookCard: {
+    title: "Built with Bro",
+    description:
+      "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
+    imageUrl: "facebookImage.jpg",
+    appId: "2391725224459953",
+  },
+  siteTitle: "Built with Draftbox",
+  siteDescription:
+    "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding.",
+  language: "en",
+  logoUrl: "logo.png",
+  iconUrl: "favicon.png",
+  coverUrl: "cover.jpg",
+  alternateLogoUrl: "logo.png",
 };
