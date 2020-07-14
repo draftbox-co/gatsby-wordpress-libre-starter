@@ -80,10 +80,10 @@ module.exports = {
     username: "@DraftboxHQ",
   },
   facebookCard: {
-    title: "Built with Bro",
+    title: "Built with Draftbox",
     description:
       "Lightning fast, secure front-end for your WordPress or Ghost blog, without coding. Draftbox is a new-age blogging platform for everyone, built on Gatsby.",
-    imageUrl: "facebookImage.jpg",
+    imageUrl: "facebookImage.png",
     appId: "2391725224459953",
   },
   siteTitle: "Built with Draftbox",
