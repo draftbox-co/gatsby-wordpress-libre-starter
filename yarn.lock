@@ -2,16 +2,6 @@
 # yarn lockfile v1
 
 
-"@armada-inc/gatsby-plugin-amp@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@armada-inc/gatsby-plugin-amp/-/gatsby-plugin-amp-0.2.3.tgz#27b0796dd2851644238e45b4ab03ef74e4bcaa46"
-  integrity sha512-UuZkWSM7Kzvk8Zuu8+hmLpfNm9e7DMfTm1WYr6qWssOvQpxmFm3VNjIdJPrlBo4II7cmeMw11z4z+gNkKF9d6A==
-  dependencies:
-    jsdom "^13.0.0"
-    lodash.flattendeep "^4.4.0"
-    minimatch "^3.0.4"
-    react "^16.6.1"
-
 "@babel/code-frame@7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
@@ -958,12 +948,22 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.36":
-  version "1.0.36"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.36.tgz#9a08f1ecfc6d1adb0f26a9d36264e6b36da8cdf2"
-  integrity sha512-88OEU35L+FjsaoXSR4bGsXZcKe4iTpy9FxAaKXBEsrofHb1F7AOxdmHXMEp7KmpKz+ADFPLR9S6kHguL10tFMQ==
+"@draftbox-co/gatsby-plugin-amp@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-plugin-amp/-/gatsby-plugin-amp-0.2.4.tgz#736717349fe9d0961d2b16ad3ebb45cb80629c0e"
+  integrity sha512-nERnqPbfvzCr20aH2z2XWcHRLHdbIhh+D3wZg8SBw/1b0JYGU2vZxVeXaV7RngV1VMKQiZV/ty0UVXy4tinXBw==
   dependencies:
-    "@armada-inc/gatsby-plugin-amp" "^0.2.3"
+    jsdom "^13.0.0"
+    lodash.flattendeep "^4.4.0"
+    minimatch "^3.0.4"
+    react "^16.6.1"
+
+"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.37":
+  version "1.0.37"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.37.tgz#f1b6568b1b34e05bca7f36b5b256e9fc55d9d3d5"
+  integrity sha512-kher7yqhG3MXiOaro5bfSYuPhYy5miaUIR/qSX7BHSsFXGov805cdwRxrFGtjnUIW9O3cgL0T33ABWT2m5hkKw==
+  dependencies:
+    "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@reach/router" "^1.3.3"
     disqus-react "^1.0.8"
     gatsby-awesome-pagination "^0.3.5"
