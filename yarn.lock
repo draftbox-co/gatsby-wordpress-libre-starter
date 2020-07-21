@@ -993,10 +993,10 @@
   dependencies:
     "@babel/runtime" "^7.10.5"
 
-"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.40":
-  version "1.0.40"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.40.tgz#8c92151cab0d68db480bbe86e458efeceeadd86f"
-  integrity sha512-DwtBWTSoUZldgOaeDrSTKxxJ7cFjionAzf6Jvn4QQWp3C3JzgpkkPM3zzEqkNBYKcr5hZw5gw3rbVrXFXsLwrg==
+"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.41":
+  version "1.0.41"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.41.tgz#3a3dd5efa324739a00405194c23c4488c2b7484d"
+  integrity sha512-6StXvgoIoUtPQXvIGDpncPtZTaL0bLcnVRKTcxGqIW5051ZVj/cX7N0lY2IOrfksqAp9Syxub/OKiYsnD/qtVA==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@reach/router" "^1.3.3"
