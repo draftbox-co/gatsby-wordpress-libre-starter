@@ -15,7 +15,7 @@
     "react-dom": "^16.13.0"
   },
   "dependencies": {
-    "@draftbox-co/gatsby-wordpress-theme-libre": "^1.0.43",
+    "@draftbox-co/gatsby-wordpress-theme-libre": "https://github.com/draftbox-co/gatsby-wordpress-theme-libre/archive/draftbox-co-gatsby-wordpress-theme-libre-v1.0.43-alpha-2-gitpkg.tar.gz",
     "dotenv": "^8.2.0",
     "gatsby": "2.20.24",
     "gatsby-plugin-disqus": "^1.1.4",
