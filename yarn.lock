@@ -1012,9 +1012,9 @@
     postcss "^7.0.17"
     postcss-js "^2.0.1"
 
-"@draftbox-co/gatsby-wordpress-theme-libre@https://github.com/draftbox-co/gatsby-wordpress-theme-libre/archive/draftbox-co-gatsby-wordpress-theme-libre-v1.0.43-alpha-2-gitpkg.tar.gz":
-  version "1.0.43-alpha-2"
-  resolved "https://github.com/draftbox-co/gatsby-wordpress-theme-libre/archive/draftbox-co-gatsby-wordpress-theme-libre-v1.0.43-alpha-2-gitpkg.tar.gz#89ef3a6ef2dc5ae519c013b54d6c0968f03ba74c"
+"@draftbox-co/gatsby-wordpress-theme-libre@https://github.com/draftbox-co/gatsby-wordpress-theme-libre/archive/draftbox-co-gatsby-wordpress-theme-libre-v1.0.43-alpha-3-gitpkg.tar.gz":
+  version "1.0.43-alpha-3"
+  resolved "https://github.com/draftbox-co/gatsby-wordpress-theme-libre/archive/draftbox-co-gatsby-wordpress-theme-libre-v1.0.43-alpha-3-gitpkg.tar.gz#27cd104f7105d63a7e323dd2e6bdeeb9415b2831"
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@draftbox-co/gatsby-plugin-css-variables" "^0.0.3"
