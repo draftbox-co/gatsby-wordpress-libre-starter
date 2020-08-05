@@ -15,6 +15,7 @@ module.exports = {
   themeColor: "#15171A", // Used for Offline Manifest
   apiUrl: "https://wordpress.theasdfghjkl.com",
   subscribeWidget: {
+    visible: true,
     title: "Subscribe to Draftbox",
     helpText: "Get the latest posts delivered right to your inbox.",
     successMessage: "Thanks for subscribing to Draftbox.",
@@ -62,6 +63,12 @@ module.exports = {
     instagram: "https://www.instagram.com/",
     linkedin: "https://linkedin.com/",
     github: "https://github.com/draftbox-co",
+    whatsapp: "",
+    pinterest: "",
+    youtube: "",
+    dribbble: "",
+    behance: "",
+    externalLink: "",
   },
   contactWidget: {
     title: "Contact Built with Draftbox",
@@ -94,4 +101,58 @@ module.exports = {
   iconUrl: "favicon.png",
   coverUrl: "cover.jpg",
   alternateLogoUrl: "logo.png",
+  themeConfig: {
+    fonts: [
+      {
+        family: "Libre Baskerville",
+        variants: ["400", "700"],
+        fontDisplay: "swap",
+        strategy: "selfHosted",
+      },
+      {
+        family: "Source Code Pro",
+        variants: ["400", "700"],
+        fontDisplay: "swap",
+        strategy: "selfHosted",
+      },
+    ],
+    variables: [
+      {
+        varName: "--page-background",
+        value: "#ede6dd",
+      },
+      {
+        varName: "--primary-font",
+        value: "Libre Baskerville",
+      },
+      {
+        varName: "--primary-font-normal",
+        value: "400",
+      },
+      {
+        varName: "--primary-font-bold",
+        value: "700",
+      },
+      {
+        varName: "--primary-color",
+        value: "#438d8d",
+      },
+      {
+        varName: "--secondary-font",
+        value: "Source Code Pro",
+      },
+      {
+        varName: "--secondary-font-normal",
+        value: "400",
+      },
+      {
+        varName: "--secondary-font-bold",
+        value: "700",
+      },
+      {
+        varName: "--secondary-color",
+        value: "#5e4f40",
+      },
+    ],
+  },
 };
