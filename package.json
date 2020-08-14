@@ -15,7 +15,7 @@
     "react-dom": "^16.13.0"
   },
   "dependencies": {
-    "@draftbox-co/gatsby-wordpress-theme-libre": "^1.0.44",
+    "@draftbox-co/gatsby-wordpress-theme-libre": "^1.0.45",
     "dotenv": "^8.2.0",
     "gatsby": "2.20.24",
     "gatsby-plugin-disqus": "^1.1.4",

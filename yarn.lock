@@ -1012,10 +1012,10 @@
     postcss "^7.0.17"
     postcss-js "^2.0.1"
 
-"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.44":
-  version "1.0.44"
-  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.44.tgz#3cafb2d13965848ed5ff2cdf1054d2c1a74c75a0"
-  integrity sha512-sn4wkMZ4n2d+eKYxnCtxSlibJFdYzlqDKrwuSU/kNsu1KH7kDxZZeYj7DvLF0XL6L5zFU15i8/fkV/Gq+shx9w==
+"@draftbox-co/gatsby-wordpress-theme-libre@^1.0.45":
+  version "1.0.45"
+  resolved "https://registry.yarnpkg.com/@draftbox-co/gatsby-wordpress-theme-libre/-/gatsby-wordpress-theme-libre-1.0.45.tgz#aa5c95b39656adc906ee838d25e51ab4ade4f174"
+  integrity sha512-vrk8NNYWQSAN9KoiCO7flbBx1yjPV6IUc10XTfpPmaWmcSsjSVIOc95st08ciswtXV0FpGsrH+b++7iFjQhvhg==
   dependencies:
     "@draftbox-co/gatsby-plugin-amp" "^0.2.4"
     "@draftbox-co/gatsby-plugin-css-variables" "^0.0.3"
